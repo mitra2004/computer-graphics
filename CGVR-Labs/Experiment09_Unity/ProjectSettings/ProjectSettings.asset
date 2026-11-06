@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!129 &1
+PlayerSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 27
+  productGUID: 3f6e239d45f1422c9f6ca2785bc6f521
+  productName: Neon Relic Run
+  companyName: CGVR Labs
+  defaultScreenWidth: 1280
+  defaultScreenHeight: 720
+  defaultScreenWidthWeb: 960
+  defaultScreenHeightWeb: 600
+  runInBackground: 1
+  usePlayerLog: 1
+  activeInputHandler: 0

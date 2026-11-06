@@ -1,6 +1,6 @@
 # Native OpenGL submissions
 
-`CGVR_OpenGLLabs.cpp` is a macOS OpenGL/GLUT program implementing the manual's experiments **1–8 and 10**. It is not a browser/WebGL substitute.
+Each experiment lives in its own `expNN_*.cpp` file (`main.cpp` drives them; `common.h`/`common.cpp` hold shared code), and together they form a macOS OpenGL/GLUT program implementing the manual's experiments **1–8 and 10**. It is not a browser/WebGL substitute.
 
 Build and run from this directory:
 

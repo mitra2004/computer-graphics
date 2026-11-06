@@ -2,8 +2,9 @@ CXX := clang++
 CXXFLAGS := -std=c++17 -Wall -Wextra -DGL_SILENCE_DEPRECATION
 FRAMEWORKS := -framework OpenGL -framework GLUT
 
-cgvr_opengl: CGVR_OpenGLLabs.cpp
-	$(CXX) $(CXXFLAGS) $< $(FRAMEWORKS) -o $@
+SRCS := $(wildcard *.cpp)
+cgvr_opengl: $(SRCS) common.h
+	$(CXX) $(CXXFLAGS) $(SRCS) $(FRAMEWORKS) -o $@
 
 run-%: cgvr_opengl
 	./cgvr_opengl $*
